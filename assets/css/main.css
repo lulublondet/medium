@@ -16,14 +16,18 @@ q:before, q:after { content:''; }
 
 /* end reset styles */
 
+html {
+	background-color: white;
+}
 
 body {
-	background: rgba(188,234;253,0.5);
+	background: rgba(255,255;155,0.8);
 	font-size: 62.5%;
 	font-family: 'Gloria Hallelujah', cursive;
 	width:800px; 
 	margin:0 auto;
 	padding-top: .5%;
+	border: 2px solid yellow;
 }
 
 .navbar {
@@ -83,7 +87,6 @@ right: -15%;
 
 
 .sub-banner {
-	border: 1px solid red;
 	padding-left: 18%; 
 }
 
@@ -111,7 +114,6 @@ right: -15%;
 
 .contenido {
 	font-size: 2em;
-	border: 1px solid yellow;
 	text-align: justify;
 }
 
